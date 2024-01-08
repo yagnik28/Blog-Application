@@ -76,7 +76,8 @@ function Login({ isUserAuthenticated }){
                         }}>
                     </TextField>
                     <TextField 
-                        variant="outlined" 
+                        variant="outlined"
+                        type="password" 
                         label="Password" 
                         name="password"
                         style={{

@@ -82,7 +82,8 @@ function Signup({ isUserAuthenticated }){
                     </TextField>
                     <TextField 
                         variant="outlined" 
-                        label="Password" 
+                        label="Password"
+                        type = "password"
                         name="password"
                         style={{
                         width: "100%",

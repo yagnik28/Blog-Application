@@ -49,6 +49,9 @@ const Header = () => {
                     Contact
                 </Link>
                 <Link to={"/login"} 
+                    onClick={() => {
+                        window.location.reload();
+                    }}
                     style={{
                         marginRight: "20px",
                         fontSize: 20,
